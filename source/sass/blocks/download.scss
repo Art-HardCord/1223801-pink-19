@@ -1,7 +1,10 @@
 .download {
   background-color: $dark-bgr;
   color: $main-bgr;
-  padding: 20px;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 35px;
+  text-align: center;
 }
 
 .download__list {
@@ -14,7 +17,6 @@
 }
 
 .download__availables {
-  text-align: center;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;

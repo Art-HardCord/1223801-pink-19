@@ -1,12 +1,12 @@
 .contest {
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 .contest__name {
   font-size: 24px;
   font-weight: 300;
-  text-align: center;
   color: $light-font;
   background: $dark-bgr url("../img/bg-back-mobile@1x.jpg");
   padding: 36px 46px;
@@ -20,11 +20,14 @@
 
 .contest__fieldset {
   border: none;
-  padding: 19px;
+  margin: 0;
+  padding: 0;
 }
 
 .contest__list {
   list-style: none;
+  padding-left: 0;
+  text-align: left;
 }
 
 .contest__title {
@@ -42,6 +45,8 @@
 }
 
 .contest__submit {
+  display: block;
+  margin: 0 auto;
   padding: 22px 45px;
   color: $light-font;
   background-color: $green-bgr;

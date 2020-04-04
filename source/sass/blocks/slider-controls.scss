@@ -3,12 +3,19 @@
 }
 
 .slider-controls__button {
-  display: inline-block;
-  vertical-align: middle;
-  box-sizing: content-box;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  margin-right: 20px;
-  font-size: 0;
+  padding: 0;
+  opacity: 0.3;
+  background-color: $darkfont;
+  margin: 0 10px;
+  box-sizing: content-box;
+}
+
+.slider-controls__button--current {
+  opacity: 1;
+  border: 3px solid $darkfont;
+  background-color: $light-font;
+  box-sizing: content-box;
 }
