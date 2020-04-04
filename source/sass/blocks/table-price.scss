@@ -6,9 +6,11 @@
 }
 
 .table-price__header {
-  border-collapse: collapse;
+  // border-collapse: collapse;
   border: 1px solid $darkfont;
   padding: 10px;
+  background-color: $darkfont;
+  color: $light-font;
 }
 
 .table-price__cell {
