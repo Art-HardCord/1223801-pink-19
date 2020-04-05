@@ -10,12 +10,10 @@
   opacity: 0.3;
   background-color: $darkfont;
   margin: 0 10px;
-  box-sizing: content-box;
 }
 
 .slider-controls__button--current {
   opacity: 1;
   border: 3px solid $darkfont;
   background-color: $light-font;
-  box-sizing: content-box;
 }
