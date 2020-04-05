@@ -1,0 +1,19 @@
+.slider-controls {
+  position: relative;
+}
+
+.slider-controls__button {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  padding: 0;
+  opacity: 0.3;
+  background-color: $darkfont;
+  margin: 0 10px;
+}
+
+.slider-controls__button--current {
+  opacity: 1;
+  border: 3px solid $darkfont;
+  background-color: $light-font;
+}

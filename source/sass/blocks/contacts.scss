@@ -1,0 +1,15 @@
+.contacts {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts__title {
+  color: $darkfont;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 25px;
+}
+
+.contacts__data {
+  color: $red-base;
+}

@@ -1,0 +1,19 @@
+.table-price {
+  width: 600px;
+  border: 2px solid $brd-top;
+  border-collapse: collapse;
+}
+
+.table-price__header {
+  // border-collapse: collapse;
+  border: 1px solid $darkfont;
+  padding: 10px;
+  background-color: $darkfont;
+  color: $light-font;
+}
+
+.table-price__cell {
+  border-collapse: collapse;
+  border: 1px solid $darkfont;
+  padding: 10px;
+}

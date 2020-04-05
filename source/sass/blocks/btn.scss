@@ -1,12 +1,15 @@
 .btn {
-  margin: 0 auto;
-  padding: 10px 30px;
+  display: inline-block;
+  padding: 16px 39px 16px 40px;
   vertical-align: middle;
-  color: inherit;
+  font-family: inherit;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 18px;
   text-align: center;
-  border: 3px solid #eeeeee;
+  color: inherit;
+  background-color: transparent;
+  border: 3px solid $light-font;
   border-radius: 30px;
   cursor: pointer;
 }
