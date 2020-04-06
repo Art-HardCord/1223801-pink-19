@@ -25,3 +25,23 @@
 .features__item {
   padding: 0 34px;
 }
+
+
+@media (min-width: $tablet-width) {
+  .feautures__container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .features__list {
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .features__list {
+    display: flex;
+    text-align: center;
+  }
+}

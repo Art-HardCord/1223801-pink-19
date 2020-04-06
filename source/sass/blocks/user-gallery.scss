@@ -13,3 +13,19 @@
   line-height: 24px;
   padding: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .user-gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .user-gallery__item {
+    display: flex;
+    width: 300px;
+  }
+
+  .user-gallery__item--wide {
+    flex-grow: 1;
+  }
+}
