@@ -4,6 +4,27 @@
   position: relative;
 }
 
+@media (min-width: $desktop-width) {
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-nav__list {
+    display: flex;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav__item {
+    margin-right: 100px;
+    padding: 10px;
+  }
+}
+
+
 .main-nav__top-wrapper {
   background-color: rgba($wrapper-bg, 0.5);
 }
@@ -14,10 +35,10 @@
   margin: 0;
 }
 
-.main-nav__toggle {
-  position: absolute;
-  right: 0;
-}
+// .main-nav__toggle {
+//   position: absolute;
+//   right: 0;
+// }
 
 .main-nav__item a {
   color: $light-font;
