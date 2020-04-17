@@ -1,16 +1,12 @@
 .footer {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 50px 20px;
+  flex-wrap: wrap;
+}
+
+.footer__link {
+  display: block;
   text-align: center;
-  padding: 40px;
-}
-
-.social {
-  list-style: none;
-  display: flex;
-}
-
-.social__item {
-  position: relative;
 }
